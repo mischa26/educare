@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+    background: -webkit-linear-gradient(to left, #FF512F, #2ecc71);
+    background: linear-gradient(to left, #FF512F, #2ecc71);
+    overflow: hidden;
+
+}
+
+.box{
+    width: 500px;
+    padding:40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+     background: #2A3F54;
+    text-align: center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+
+.box input[type = "text"], .box input[type = "password"] {
+    border:0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border:  2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box input[type = "submit"]{
+    border:0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border:  2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color:white;    
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.box input [type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+
+
+/* * {
+    transition: all 200ms ease-in-out;
+}
+html {
+    height: 100%;
+}
+body {
+    background: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content {
+    flex: 1;
+}
+.admin-text {
+    max-width: 375px;
+    width: 100%;
+    margin: 0 auto;
+    letter-spacing: 3px;
+    color: rgba(0,5,20,.65);
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.client-logo {
+    margin: 0 auto 1rem; 
+    height: 142px;
+    width: 147px;
+    display: block;
+}
+.panel {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.125);
+    border: 1px solid rgba(0,0,0,0.45);
+    max-width: 375px;
+    width: 100%;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.m-top { margin-top: 1rem;}
+.m-top-l { margin-top: 2rem;}
+.m-top-xl { margin-top: 3rem;}
+
+label {
+    color: #aaa;
+    font-weight: 600;
+}
+
+input[type="text-emphasis: ;xt"],
+input[type="password"]{
+    border-radius: 3px;
+    border: 2px solid #dedede;
+    box-shadow: none;
+    color: #555;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #dedede;
+}
+
+input[type="submit"] {
+    background: #f47621;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: 0 none;
+    border-radius: 3px;
+    padding: 1.5rem; 
+    margin-top: 2vh;
+    line-height: 0;
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input[type="submit"]:hover {
+    background: #e36510;
+}
+
+.forgot-pw {
+    display: block;
+    text-align: center;
+    margin-top: .875rem;
+    font-size: 1rem;
+}
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+footer img {
+    opacity: .5;
+    margin-bottom: 1rem;
+}
+footer img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+footer .row {
+    max-width: 100%;
+}
+
+@media screen and (min-width: 641px) {
+    footer .columns:nth-child(1) {
+        text-align: left;
+    }
+    footer .columns:nth-child(2) {
+        text-align: right;
+    }
+} */
